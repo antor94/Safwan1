@@ -36,22 +36,4 @@ export default Banner
 
 
 
-  // <section id='banner' className="flex h-[850px]">
-  //     {/* Left Side */}
-  //     <div className="bg-main relative text-white w-full lg:w-1/2  px-8 py-12">
-  //         <div className="container">
-  //     <img className=' opacity-15' src={group} alt="" />
-
-
-
-
-  //     </div>
-    
-
-  //     </div>
-
-      
-
-  //     {/* Right Side */}
-  //     <div className="bg-gray-300 w-full lg:w-1/2"></div>
-  //   </section>
+ 
