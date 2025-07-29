@@ -1,5 +1,5 @@
 import React from 'react'
-import '../app.css'
+
 import Banner from '../components/Banner'
 import Services from '../components/Services'
 import Blog from '../components/Blog'
