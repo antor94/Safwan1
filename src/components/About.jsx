@@ -2,8 +2,18 @@ import React from 'react'
 import CommonHead from './common/CommonHead'
 import ProgressBar from "@ramonak/react-progress-bar";
 import line from '../assets/images/line_shape.png'
+import {
+  CircularProgressbar,
+  buildStyles
+} from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
-
+const skills = [
+  { title: "Graphic Design", percentage: 70 },
+  { title: "Web Designing", percentage: 85 },
+  { title: "Brand Design", percentage: 60 },
+  { title: "Web Development", percentage: 40 },
+];
 const About = () => {
   return (
     <>
@@ -57,8 +67,51 @@ const About = () => {
     <div className="flex justify-around">
 
 
+        <div style={{
+      display: "flex",
+      gap: "30px",
+      justifyContent: "center",
+      alignItems: "center",
+    }}>
+      {skills.map((skill, index) => (
+        <div
+          key={index}
+          style={{
+            width: "270px",
+            height: "282px",
+            textAlign: "center",
+            background: "#fff",
+            padding: "20px",
+            borderRadius: "10px",
+            boxShadow: "0 0 15px rgba(0,0,0,0.05)"
+          }}
+        >
+          <CircularProgressbar
+            value={skill.percentage}
+            text={`${skill.percentage}%`}
+            styles={buildStyles({
+              textColor: "#e45b42",
+              pathColor: "#e45b42",
+              trailColor: "#e6e6e6",
+              textSize: "16px",
+              pathTransitionDuration: 1
+            })}
+          />
+          <p style={{
+            marginTop: "15px",
+            fontWeight: "600",
+            color: "#00413D",
+            fontSize: "26px"
+          }}>
+            {skill.title}
+          </p>
+        </div>
+      ))}
+    </div>
+
+{/* 
       <div className="w-[270px] h-[282px] bg-[#fff] shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)]">
-        <ProgressBar completed={60} />
+        
 
         <div><h2 className="text-[26px] text-center font-semibold font-main text-main">Graphic Design</h2></div>
       </div>
@@ -73,7 +126,7 @@ const About = () => {
             <div className="w-[270px] h-[282px] text-center bg-[#fff] shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)]">
 
         <div><h2 className="text-[26px] text-center font-semibold font-main text-main">Web Development</h2></div>
-      </div>
+      </div> */}
 
 
 

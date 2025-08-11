@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Contact from './components/Contact'
 import Services from './components/Services'
 import Blog from './components/Blog'
+import './App.css'
 
 const App = () => {
 
