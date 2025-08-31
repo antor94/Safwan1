@@ -8,13 +8,22 @@
 
 }
 
+.slick-list{
+    height: 550px !important;
+}
+
+
+.slick-slide{
+    width: 527px !important;
+}
+
 /* -------------- slider */
 .slick-arrow {
  width: 44px;
  height: 44px;
  padding: 8px;
- background: #F0F2F3;
  color: black;
+border: 1px solid #00413d29; 
 
 }
 
@@ -33,7 +42,6 @@
 }
 
 .slick-next {
-   
     z-index: 999;
     top: -75px;
     position: absolute;
@@ -42,7 +50,5 @@
 
 
 .slick-dots {
-
     bottom: -56px !important;
-
 }

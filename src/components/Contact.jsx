@@ -12,7 +12,7 @@ const Contact = () => {
       <section is='contact' className=" relative py-[120px]">
         <div className=" absolute top-[160px] right-[24px]"><img src={bulet} alt="logo" /></div>
         <div className="container">
-          <div className="flex gap-[150px] items-center">
+          <div className="flex justify-center gap-[30px] items-center">
 
             <div className="w-[470px] h-[586px] bg-[#C4C4C4]">
 

@@ -29,8 +29,6 @@ const Project = () => {
   return (
     <>
 
-
-
           {/* ------------- project */}
 
       <section id='project' className=" relative pb-[120px]">
@@ -48,7 +46,7 @@ const Project = () => {
 
         <Slider {...settings}>
       <div>
-             <div className="w-[370px] z-10 h-[520px] bg-white shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.1)]">
+             <div className="w-[370px] z-999 h-[520px] bg-white hover:shadow-[inset_0px_5px_15px_-3px_rgba(0,_0,_0,_0.2)] shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.1)]">
                 <img
                   className="w-full h-[270px] bg-[#C4C4C4]"
                   src="$"
@@ -72,7 +70,7 @@ const Project = () => {
               </div>
       </div>
       <div>
-                 <div className="w-[370px] z-10 h-[520px] bg-white shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.1)]">
+                 <div className="w-[370px] z-10 h-[520px] hover:shadow-[inset_0px_5px_15px_-3px_rgba(0,_0,_0,_0.2)] bg-white shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.1)]">
                 <img
                   className="w-full h-[270px] bg-[#C4C4C4]"
                   src="$"
@@ -96,7 +94,7 @@ const Project = () => {
               </div>
       </div>
       <div>
-                  <div className="w-[370px] h-[520px] bg-white shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.1)]">
+                  <div className="w-[370px] h-[520px] hover:shadow-[inset_0px_5px_15px_-3px_rgba(0,_0,_0,_0.2)] bg-white shadow-[0px_10px_20px_0px_rgba(0,_0,_0,_0.1)]">
                 <img
                   className="w-full h-[270px] bg-[#C4C4C4]"
                   src="$"
