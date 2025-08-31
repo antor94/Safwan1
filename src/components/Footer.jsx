@@ -16,11 +16,11 @@ const Footer = () => {
               <div className="pt-[60px] flex justify-center">
                 <ul className="flex gap-[43px] items-center">
                   <li className="text-[18px] font-normal font-jost text-white">
-                    <Link to='/Home'>Home</Link>
+                    <Link  to='/Home'>Home</Link>
                   </li>
                   <span className=" inline-block w-[2px] h-[26px] bg-[#ffffff21]"></span>
                   <li className="text-[18px] font-normal font-jost text-white">
-                    <Link>Pages</Link>
+                    <Link to='/'>Pages</Link>
                   </li>
                   <span className=" inline-block w-[2px] h-[26px] bg-[#ffffff21]"></span>
                   <li className="text-[18px] font-normal font-jost text-white">
@@ -28,29 +28,28 @@ const Footer = () => {
                   </li>
                   <span className=" inline-block w-[2px] h-[26px] bg-[#ffffff21]"></span>
                   <li className="text-[18px] font-normal font-jost text-white">
-                    <Link>Blog</Link>
+                    <Link to='/'>Blog</Link>
                   </li>
                   <span className=" inline-block w-[2px] h-[26px] bg-[#ffffff21]"></span>
                   <li className="text-[18px] font-normal font-jost text-white">
-                    <Link>Contact</Link>
+                    <Link to='/'>Contact</Link>
                   </li>
                 </ul>
               </div>
               <div className="pt-[50px] pb-[80px] flex justify-center gap-[20px]">
                 <div className="!w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#E5745D]">
-                  <Link className=""><AiOutlineSkype className="text-[36px] text-[#fff]" /></Link>{" "}
+                  <Link to='/' className=""><AiOutlineSkype className="text-[36px] text-[#fff]" /></Link>{" "}
                 </div>
                 <div className="!w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#E5745D]">
-                  <Link className=""><FaInstagram className="text-[36px] text-[#fff]" /></Link>{" "}
+                  <Link to='/' className=""><FaInstagram className="text-[36px] text-[#fff]" /></Link>{" "}
                 </div>
                 <div className="!w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#E5745D]">
-                  <Link className=""><FaBehance className="text-[36px] text-[#fff]" /></Link>{" "}
+                  <Link to='/' className=""><FaBehance className="text-[36px] text-[#fff]" /></Link>{" "}
                 </div>
               </div>
           
           </div>
-              <div className="border border-[#ffffff2e]"></div>
-              <div className="pt-[30px] flex justify-center"><p className="text-[12px] font-normal font-jost text-[#fff]">Copyright © 2023 Design By Estiak. All rights reserved.</p></div>
+             
         </div>
       </section>
     </>

@@ -17,7 +17,7 @@ const Services = () => {
         <div className="container">
           <div className=" text-center flex flex-col justify-center left-[375px]">
             <div className="flex flex-col justify-center items-center">
-              <CommonHead headimg={tag} headp={"MY SERVICES"} />
+              <div className="w-[600px]  flex justify-center"> <CommonHead headimg={tag} headp={"MY SERVICES"} /> </div>
               <h2 className="w-[570px] pt-[11px] pb-[40px]  text-[50px] font-medium font-main text-main">
                 Provide Wide Range of Digital Services
               </h2>
